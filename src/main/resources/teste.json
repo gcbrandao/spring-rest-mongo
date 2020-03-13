@@ -1,0 +1,48 @@
+{
+  "_embedded": {
+    "pessoas": [
+      {
+        "nome": "Teste",
+        "sobrenome": "Mongo",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pessoas/5e6ae09ad60cb6765a7e74d4"
+          },
+          "pessoaFisica": {
+            "href": "http://localhost:8080/pessoas/5e6ae09ad60cb6765a7e74d4"
+          }
+        }
+      },
+      {
+        "nome": "Teste",
+        "sobrenome": "Mongo 3",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pessoas/5e6ae0d2d60cb6765a7e74d5"
+          },
+          "pessoaFisica": {
+            "href": "http://localhost:8080/pessoas/5e6ae0d2d60cb6765a7e74d5"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/pessoas{?page,size,sort}",
+      "templated": true
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/pessoas"
+    },
+    "search": {
+      "href": "http://localhost:8080/pessoas/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}
